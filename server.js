@@ -35,8 +35,6 @@ db.sequelize.sync({ force: true }).then(() => {
       });
     });
   });
-  // superSurvey.run();
-  // weatherSurvey.run();
 });
 
 // simple route
